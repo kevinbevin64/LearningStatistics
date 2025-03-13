@@ -5,8 +5,6 @@ from math import sqrt
 # from random import randint
 import secrets 
 
-from typing import override
-
 class Population(Sample):
 	def __init__(self, pop: list[int]) -> None:
 		super().__init__(pop)
